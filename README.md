@@ -29,6 +29,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+To serve up the build, run 'sudo npm install -g serve' (a basic http server) to install serve if you haven't already. Then run 'serve -s build -p 8000' to serve up the build at [localhost:8000](http://localhost:8000/)
+
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**

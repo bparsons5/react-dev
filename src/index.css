@@ -10,15 +10,36 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.navbar {
+  background-color: #1f3749;
+}
+
+.nav-link {
+  color: #bccdda;
+}
+
+.btn-primary {
+  background-color: #1e3749;
+  border: 1px solid #bccdda;
+  color: #bccdda;
+}
+
+.btn-primary:hover {
+  background-color: #182a36;
+  border: 1px solid #182a36;
+  color: #bccdda;
+
+}
+
 .container {
-  background-color: #bccdda;
-  max-width: 40vw;
-  margin: 30px auto;
+  background-color: #1f3749;
+  color: #bccdda;
+  /* background-color: #bccdda; */
+  max-width: 100vw !important;
+  margin: auto;
   overflow: auto;
-  min-height: 300px;
-  border: 1px solid steelblue;
+  min-height: calc(100vh - 50px);
   padding: 30px;
-  border-radius: 5px;
 }
 
 .header {
@@ -26,20 +47,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
-}
-
-.btn {
-  display: inline-block;
-  background: #000;
-  color: #fff;
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-decoration: none;
-  font-size: 15px;
-  font-family: inherit;
 }
 
 .btn:focus {

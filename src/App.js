@@ -51,8 +51,8 @@ function App() {
 
   return (
     <Router>
+      <Header title='React' onToggleAddTask={() => setShowAddTask(!showAddTask)} showAdd={showAddTask}/>
       <div className="container">
-        <Header title='React' onToggleAddTask={() => setShowAddTask(!showAddTask)} showAdd={showAddTask}/>
 
         <Routes>
           <Route path='/' exact element={

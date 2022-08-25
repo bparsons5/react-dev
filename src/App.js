@@ -18,8 +18,13 @@ function App() {
         <Routes>
           <Route path='/' exact element={
             <>
-              <p>holder</p>
-              <br />
+              <div className='section'>
+                  <h5>hello, my name is</h5>
+                  <h1>Brett Parsons.</h1>
+                  <h3>I am a developer who's always looking for an interesting project.</h3>
+                  <h6>Description</h6>
+              </div>
+              <About />
             </>
           }/>
           <Route path='/dashboard' element={<Dashboard />}/>

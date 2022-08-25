@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree');
+/* @import url('https://fonts.googleapis.com/css2?family=Crimson%20Text'); */
+
+html {
+  background-color: #18374e;
+  max-height: 100vh;
+  max-width: 100vw;
+}
 
 * {
   box-sizing: border-box;
@@ -7,39 +14,119 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Figtree', sans-serif;
+  /* font-family: 'Crimson Text'; */
+  max-height: 100vh;
+  max-width: 100vw;
+  font-weight: 100;
+  font-size: small;
+}
+
+footer {
+  width: 100%;
+  padding: 15px;
+  color: white !important;
 }
 
 .navbar {
-  background-color: #1f3749;
+  position: fixed;
+  width: 100vw;
+  opacity: .97;
+  background-color: #18374e;
 }
 
 .nav-link {
   color: #bccdda;
+  padding: 8px 15px !important;
 }
 
-.btn-primary {
-  background-color: #1e3749;
-  border: 1px solid #bccdda;
+.nav-link:hover {
+  color: #aabbc9af;
+}
+
+.navbar-toggler {
+  border: 1px solid #bccdda1c;
+  color: #bccdda !important;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: transparent !important;
+  box-shadow: none;
+}
+
+.logo {
+  padding: 12px 10px 10px 10px;
+  margin-left: 5px;
+  color:#bccdda;
+  text-decoration: none;
+}
+
+.logo:hover {
+  cursor: pointer;
+  color: #aabbc9af;
+  text-decoration: none;
+}
+
+.logo-name {
+  padding-left: 10px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  right: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border: solid 3px transparent;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bccdda45; 
+  border-radius: 3px;
+  border: solid 3px transparent;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aabbc9af; 
+}
+
+.btn {
+  font-size: small;
+  background-color: transparent;
+  border: 1px solid #bccdda1c;
   color: #bccdda;
 }
 
-.btn-primary:hover {
+.btn:focus {
+  background-color: transparent;
+  border: 1px solid #bccdda1c;
+  color: #bccdda;
+}
+
+.btn:hover {
   background-color: #182a36;
   border: 1px solid #182a36;
   color: #bccdda;
-
 }
 
 .container {
-  background-color: #1f3749;
+  /* background-color: #18374e; */
+  background-color: #244259;
   color: #bccdda;
   /* background-color: #bccdda; */
   max-width: 100vw !important;
   margin: auto;
-  overflow: auto;
-  min-height: calc(100vh - 50px);
+  overflow-x: scroll;
+  min-height: 2000px;
   padding: 30px;
+  position: absolute;
+  top: 51.5px;
+  z-index: -1;
 }
 
 .header {

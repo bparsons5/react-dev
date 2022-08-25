@@ -1,34 +1,37 @@
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 import { useLocation } from 'react-router-dom'
 
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 
-const Header = ({ title, onToggleAddTask, showAdd }) => {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars, faCode } from '@fortawesome/free-solid-svg-icons'
+
+const Header = () => {
     const location = useLocation()
     
     return (
         <>
             <Navbar key='sm' expand='sm'>
                 <Container fluid>
-                    <img src={require('../images/logo.png')} height='26' className='ms-2'/> {/* is this how externals are supposed to be called? */}
-                    <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-$'sm'`} />
+                    <a href='/' className='logo'>
+                        {/* <img src={require('../images/logo-white.png')} height='26' className='ms-2'/> is this how externals are supposed to be called? */}
+                        <FontAwesomeIcon icon={faCode} />
+                        <span className='logo-name'>R. Brett Parsons</span>
+                    </a>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav"><FontAwesomeIcon icon={faBars} /></Navbar.Toggle>
                     <Navbar.Offcanvas id={`offcanvasNavbar-expand-$'sm'`} aria-labelledby={`offcanvasNavbarLabel-expand-$'sm'`} placement="end">
-                    <Offcanvas.Header closeButton>
-                        <Offcanvas.Title id={`offcanvasNavbarLabel-expand-$'sm'`}>Offcanvas</Offcanvas.Title>
-                    </Offcanvas.Header>
+                    <Offcanvas.Header closeButton></Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="#action1">About</Nav.Link>
-                            <Nav.Link href="#action2">Experience</Nav.Link>
-                            <Nav.Link href="#action3">Projects</Nav.Link>
-                            <Nav.Link href="#action">Contact</Nav.Link>
-                            <Button className='ms-3'>Resume</Button>
+                            <Nav.Link href="About">About</Nav.Link>
+                            <Nav.Link href="Experience">Experience</Nav.Link>
+                            <Nav.Link href="Projects">Projects</Nav.Link>
+                            <Nav.Link href="Contact">Contact</Nav.Link>
+                            <a type='button' href='https://drive.google.com/file/d/1UFBZjwpirNNVCuxiPMb0rGs2dQqCP0RE/view?usp=sharing' target='_blank' className='ms-3 btn'>Resume</a>
                         </Nav>
                     </Offcanvas.Body>
                     </Navbar.Offcanvas>
@@ -43,12 +46,12 @@ const Header = ({ title, onToggleAddTask, showAdd }) => {
     )
 }
 
-Header.defaultProps = {
-  title: 'REACT'
-}
+// Header.defaultProps = {
+//   title: 'REACT'
+// }
 
-Header.propTypes = {
-    title: PropTypes.string.isRequired,
-}
+// Header.propTypes = {
+//     title: PropTypes.string.isRequired,
+// }
 
 export default Header

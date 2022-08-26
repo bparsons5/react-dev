@@ -30,6 +30,7 @@ function App() {
                   <About />
                   <Footer />
               </div>
+              <div id="blur-bottom"></div>
               <Social />
             </>
           }/>

@@ -37,6 +37,7 @@ const Header = () => {
                     </Navbar.Offcanvas>
                 </Container>
             </Navbar>
+            <div id="blur-top"></div>
         </>
 
         // <header className='header'>

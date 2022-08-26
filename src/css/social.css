@@ -3,6 +3,7 @@
     font-size: large;
     bottom: 0px;
     padding: 5px 27px;
+    z-index: 1;
 }
 
 #social a {

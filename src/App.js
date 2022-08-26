@@ -18,7 +18,6 @@ function App() {
             <>
               <Header title='React'/>
               <div className="container">
-                <div className="content">
                   <div className='section'>
                       <h5>hello, my name is</h5>
                       <h1>Brett Parsons.</h1>
@@ -30,7 +29,6 @@ function App() {
                   <About />
                   <About />
                   <Footer />
-                </div>
               </div>
               <Social />
             </>

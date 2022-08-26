@@ -6,12 +6,6 @@ html {
   max-width: 100vw;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: 'Figtree', sans-serif;
   max-height: 100vh;
@@ -31,9 +25,6 @@ footer {
   width: 100vw;
   opacity: .97;
   background-color: #244259;
-  /* background-color: #18374e; */
-  padding-top: 60px;
-  top: -50px;
 }
 
 .nav-link {
@@ -77,11 +68,15 @@ footer {
 ::-webkit-scrollbar {
   width: 5px;
   right: 15px;
+  position: absolute;
+  z-index: 1000;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
   border: solid 3px transparent;
+  position: absolute;
+  z-index: 1000;
 }
  
 /* Handle */
@@ -89,6 +84,8 @@ footer {
   background: #bccdda45; 
   border-radius: 3px;
   border: solid 3px transparent;
+  position: absolute;
+  z-index: 1000;
 }
 
 /* Handle on hover */
@@ -116,18 +113,21 @@ footer {
 }
 
 .container {
-  /* background-color: #18374e; */
   background-color: #244259;
   color: #bccdda;
-  /* background-color: #bccdda; */
-  max-width: 100vw !important;
-  margin: auto;
-  overflow-x: scroll;
-  min-height: calc(100vh - 51.5px);
-  padding: 30px;
+  min-width: 100vw !important;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
   position: absolute;
-  top: 51.5px;
   z-index: -1;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow-x: clip;
 }
 
 .btn:focus {

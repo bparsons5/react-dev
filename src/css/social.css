@@ -1,0 +1,21 @@
+#social {
+    position:fixed;
+    font-size: large;
+    bottom: 0px;
+    padding: 5px 27px;
+}
+
+#social a {
+    text-decoration: none;
+    color: #bccdda;
+    padding-bottom: 5px;
+    margin: 20px 5px;
+    display: flex;
+    transition: .3s;
+}
+
+#social a:hover {
+    text-decoration: none;
+    transition: .3s;
+    transform: translateY(-3px);
+}

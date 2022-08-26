@@ -7,31 +7,36 @@ import AddTask from './components/AddTask'
 import Footer from './components/Footer'
 import About from './components/About'
 import Dashboard from './components/Dashboard'
+import Social from './components/Social'
 
 function App() {
 
   return (
     <Router>
-      <Header title='React'/>
-      <div className="container">
-
         <Routes>
           <Route path='/' exact element={
             <>
-              <div className='section'>
-                  <h5>hello, my name is</h5>
-                  <h1>Brett Parsons.</h1>
-                  <h3>I am a developer who's always looking for an interesting project.</h3>
-                  <h6>Description</h6>
+              <Header title='React'/>
+              <div className="container">
+                <div className="content">
+                  <div className='section'>
+                      <h5>hello, my name is</h5>
+                      <h1>Brett Parsons.</h1>
+                      <h3>I am a developer who's always looking for an interesting project.</h3>
+                      <h6>Description</h6>
+                  </div>
+                  <About />
+                  <About />
+                  <About />
+                  <About />
+                  <Footer />
+                </div>
               </div>
-              <About />
+              <Social />
             </>
           }/>
           <Route path='/dashboard' element={<Dashboard />}/>
         </Routes>
-
-        <Footer />
-      </div>
     </Router>
   );
 }

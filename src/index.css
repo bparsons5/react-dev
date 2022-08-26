@@ -81,6 +81,23 @@ footer {
   border: 1px solid #244259;
 }
 
+.offcanvas-toggling {
+  background-color: #bccdda;
+}
+
+.offcanvas-toggling .offcanvas-body {
+  padding-right: 60%;
+}
+
+.offcanvas-toggling .offcanvas-body a {
+  color:#244259;
+}
+
+.offcanvas-toggling .btn {
+  margin-top: 20px;
+  border: 1px solid #244259;
+}
+
 #blur-top {
   height: 175px;
   position: fixed;

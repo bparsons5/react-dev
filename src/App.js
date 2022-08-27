@@ -40,9 +40,14 @@ function App() {
 }
 
 $(function() {
-  const titleMargin = "calc(50vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
-  document.getElementById('title').style.marginTop = titleMargin
-  document.getElementById('title').style.marginBottom = titleMargin
+  if (window.innerWidth > 767) {
+    const titleMargin = "calc(50vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
+    document.getElementById('title').style.marginTop = titleMargin
+    document.getElementById('title').style.marginBottom = titleMargin
+  } else {
+    document.getElementById('title').style.marginTop = "calc(40vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
+    document.getElementById('title').style.marginBottom = "calc(60vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
+  }
 });
 
 

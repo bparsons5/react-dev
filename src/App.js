@@ -44,9 +44,11 @@ $(function() {
     const titleMargin = "calc(50vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
     document.getElementById('title').style.marginTop = titleMargin
     document.getElementById('title').style.marginBottom = titleMargin
+    document.getElementById('checkout').innerHTML = 'Here'
   } else {
-    document.getElementById('title').style.marginTop = "calc(40vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
-    document.getElementById('title').style.marginBottom = "calc(60vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
+    document.getElementById('title').style.marginTop = "calc(25vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
+    document.getElementById('title').style.marginBottom = "calc(75vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
+    document.getElementById('checkout').innerHTML = 'not'
   }
 });
 

@@ -19,4 +19,11 @@
     text-decoration: none;
     transition: .3s;
     transform: translateY(-3px);
+    color: #d8e1ea;
+}
+
+@media (max-width: 767px) {
+    #social {
+        display: none;
+    }
 }

@@ -1,13 +1,14 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' 
+import Container from 'react-bootstrap/Container';
+import $ from 'jquery';
 
 import Header from './components/Header'
-import Tasks from './components/Tasks'
-import AddTask from './components/AddTask'
 import Footer from './components/Footer'
-import About from './components/About'
+import Title from './components/Title'
 import Dashboard from './components/Dashboard'
 import Social from './components/Social'
+import Email from './components/Email'
 
 function App() {
 
@@ -17,21 +18,19 @@ function App() {
           <Route path='/' exact element={
             <>
               <Header title='React'/>
-              <div className="container">
-                  <div className='section'>
-                      <h5>hello, my name is</h5>
-                      <h1>Brett Parsons.</h1>
-                      <h3>I am a developer who's always looking for an interesting project.</h3>
-                      <h6>Description</h6>
-                  </div>
-                  <About />
-                  <About />
-                  <About />
-                  <About />
-                  <Footer />
-              </div>
+
+              <Container>
+                <Title />
+                <Title />
+                <Title />
+                <Title />
+                <Title />
+                <Footer />
+              </Container>
+
               <div id="blur-bottom"></div>
               <Social />
+              <Email />
             </>
           }/>
           <Route path='/dashboard' element={<Dashboard />}/>
@@ -39,5 +38,12 @@ function App() {
     </Router>
   );
 }
+
+$(function() {
+  const titleMargin = "calc(50vh - " + document.getElementById('title').offsetHeight / 2 + "px)"
+  document.getElementById('title').style.marginTop = titleMargin
+  document.getElementById('title').style.marginBottom = titleMargin
+});
+
 
 export default App;

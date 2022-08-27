@@ -1,0 +1,37 @@
+#title {
+    /* margin-top: 18vh; */
+}
+
+#hello {
+    padding-left: 5px;
+    color: #74c3ff;
+}
+
+#name {
+    padding: 15px 0px 0px 0px;
+    font-size: 70px;
+}
+
+#period {
+    color: #426178;
+}
+
+#tagline {
+    margin-top: -10px;
+    padding-left: 4px;
+    color: #73808a;
+}
+
+#description {
+    padding: 15px 0px 0px 0px;
+    padding-left: 6px;
+    color: #99a6b1;
+}
+
+#checkout {
+    padding: 15px 0px 0px 6px;
+}
+
+#checkout .icon {
+    margin-bottom: 4px;
+}

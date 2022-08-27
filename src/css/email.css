@@ -1,0 +1,41 @@
+#email {
+    position:fixed;
+    font-size: 12px;
+    bottom: 0px;
+    right: 0px;
+    padding: 0px 22px;
+    z-index: 1;
+}
+
+#email::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 8vh;
+    margin: 0px auto;
+    background-color: #bccdda;
+}
+
+#email a {
+    text-decoration: none;
+    color: #bccdda;
+    padding-bottom: 5px;
+    margin: 20px 5px;
+    display: flex;
+    transition: .3s;    
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+#email a:hover {
+    text-decoration: none;
+    transition: .3s;
+    transform: translateY(-3px);
+    color: #d8e1ea;
+}
+
+@media (max-width: 767px) {
+    #email {
+        display: none;
+    }
+}

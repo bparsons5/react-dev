@@ -9,9 +9,9 @@ import '../css/title.css';
 const Title = () => {
 
   return (
-    <Row id="title" className='section'>
-      <Col xs={11} sm={11} md={9} xl={7}>
-        <Row>
+    <Row className='section'>
+      <Col id="title" xs={11} sm={11} md={9} xl={7}>
+        <Row id="title-row">
           <Col xs={12}>
             <h5 id='hello'>hello, my name is</h5>
           </Col>

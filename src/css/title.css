@@ -1,9 +1,16 @@
+#title {
+    height: 100vh;
+    display: flex;
+}
 
+#title-row {
+    align-self: center;
+}
 
 #hello {
     padding-left: 5px;
-    color: #c35a5a;
-    /* color: #74c3ff; */
+    /* color: #c35a5az; */
+    color: #74c3ff;
 }
 
 #name {

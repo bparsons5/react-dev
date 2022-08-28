@@ -1,13 +1,49 @@
 #about {
-    height: calc(100vh - 100px);
+    min-height: 100vh;
     display: flex;
     text-align: center;
 }
 
 #about-row {
     align-self: center;
+    min-width: 100%;
 }
 
 #about-row * {
     margin: auto;
+}
+
+#about-profile {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    #about-profile {
+        margin-top: 45px;
+    }
+}
+
+#about-description {
+    padding-bottom: 45px;
+}
+
+#about-skills span {
+    font-size: 15px;
+    margin: 3px 15px !important;
+    display: inline-block;
+}
+
+.about-skills-icon {
+    margin: 0px 5px 3px 0px !important;
+}
+
+#about-technical {
+    text-align: left;
+    color: #5c9acb;
+}
+
+#about-resume {
+    text-align: right;
+    color: #72808a;
 }

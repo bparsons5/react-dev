@@ -1,6 +1,7 @@
 
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import { FaCaretDown } from 'react-icons/fa'
 
@@ -26,7 +27,9 @@ const Title = () => {
           </Col>
           <Col xs={0} sm={2} md={4}></Col>
           <Col xs={12} sm={6}>
-            <h5 id='checkout'>/ check out my work <FaCaretDown className='icon'/> /</h5>
+            <Link id='checkout' to='#projects'>
+              <h5>/ check out my work <FaCaretDown className='icon'/> /</h5>
+            </Link>
           </Col>
         </Row>
       </Col>

@@ -1,10 +1,11 @@
 #title {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
 }
 
 #title-row {
     align-self: center;
+    max-width: 100%;
 }
 
 #hello {
@@ -32,10 +33,15 @@
     padding: 15px 0px 0px 0px;
     padding-left: 6px;
     color: #99a6b1;
+    color: #bccdda;
+    display: block;
 }
 
 #checkout {
-    padding: 15px 0px 0px 6px;
+    text-decoration: none;
+    color: #bccdda;
+    display: block;
+    margin: 5px 0px 0px 7px;
 }
 
 #checkout .icon {

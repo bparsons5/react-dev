@@ -3,7 +3,6 @@ import { useLocation } from 'react-router-dom'
 
 import '../css/header.css';
 
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -16,6 +15,10 @@ import { MdCameraRoll } from "react-icons/md";
 
 const Header = () => {
     const location = useLocation()
+
+    const scrollTo = () => {
+        console.log('click')
+    }
     
     return (
         <>
@@ -31,10 +34,10 @@ const Header = () => {
                     <Offcanvas.Header closeButton></Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="justify-content-end flex-grow-1 pe-3">
-                            <Nav.Link href="About">About</Nav.Link>
-                            <Nav.Link href="Experience">Experience</Nav.Link>
-                            <Nav.Link href="Projects">Projects</Nav.Link>
-                            <Nav.Link href="Contact">Contact</Nav.Link>
+                            <Nav.Link href="#about">About</Nav.Link>
+                            <Nav.Link href="#experience">Experience</Nav.Link>
+                            <Nav.Link href="#projects">Projects</Nav.Link>
+                            <Nav.Link href="#contact">Contact</Nav.Link>
                             <a type='button' href='https://drive.google.com/file/d/1UFBZjwpirNNVCuxiPMb0rGs2dQqCP0RE/view?usp=sharing' target='_blank' className='ms-3 btn'>Resume</a>
                         </Nav>
                         <div id="phone-links">

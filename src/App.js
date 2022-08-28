@@ -4,11 +4,14 @@ import Container from 'react-bootstrap/Container';
 import $ from 'jquery';
 
 import Header from './components/Header'
-import Footer from './components/Footer'
+import Acknowledgements from './components/Acknowledgements'
 import Title from './components/Title'
+import About from './components/About'
+import Projects from './components/Projects'
+import Experience from './components/Experience'
+import Contact from './components/Contact'
 import Dashboard from './components/Dashboard'
-import Social from './components/Social'
-import Email from './components/Email'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -21,16 +24,20 @@ function App() {
 
               <Container>
                 <Title />
-                <Title />
-                <Title />
-                <Title />
-                <Title />
-                <Footer />
+
+                {/* About */}
+                <About /> 
+                {/* Experience */}
+                <Experience />
+                {/* Projects */}
+                <Projects />
+                {/* Contact */}
+                <Contact />
+
+                <Acknowledgements />
               </Container>
 
-              <div id="blur-bottom"></div>
-              <Social />
-              <Email />
+              <Footer />
             </>
           }/>
           <Route path='/dashboard' element={<Dashboard />}/>

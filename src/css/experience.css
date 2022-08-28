@@ -1,0 +1,13 @@
+#experience {
+    height: calc(100vh - 100px);
+    display: flex;
+    text-align: center;
+}
+
+#experience-row {
+    align-self: center;
+}
+
+#experience-row * {
+    margin: auto;
+}

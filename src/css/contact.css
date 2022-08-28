@@ -1,0 +1,25 @@
+#contact {
+    height: calc(100vh - 100px);
+    display: flex;
+    text-align: center;
+}
+
+#contact-row {
+    align-self: center;
+}
+
+#contact-row * {
+    margin: auto;
+}
+
+#contact-button {
+    text-decoration: none;
+    display: block;
+    margin-top: 40px;
+    width: 100px;
+    padding: 7px 12px;
+}
+
+#contact-icon {
+    margin: 0px 0px 3px 2px;
+}

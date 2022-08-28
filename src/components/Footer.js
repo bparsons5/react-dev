@@ -1,11 +1,13 @@
-import { Link } from 'react-router-dom'
+import Social from './Social'
+import Email from './Email'
 
 const Footer = () => {
   return (
-    <footer>
-       <p>Copyright &copy; 2022</p> 
-       <Link to='/dashboard'>dashboard</Link>
-    </footer>
+    <>
+        <div id="blur-bottom"></div>
+        <Social />
+        <Email />
+    </>
   )
 }
 

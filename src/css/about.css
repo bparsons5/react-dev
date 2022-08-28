@@ -1,0 +1,13 @@
+#about {
+    height: calc(100vh - 100px);
+    display: flex;
+    text-align: center;
+}
+
+#about-row {
+    align-self: center;
+}
+
+#about-row * {
+    margin: auto;
+}

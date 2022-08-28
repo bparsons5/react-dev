@@ -4,6 +4,7 @@ html {
   background-color: #244259;
   max-height: 100vh;
   max-width: 100vw;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,6 +36,14 @@ footer {
 
 .nav-link:hover {
   color: #aabbc9af;
+}
+
+.nav-link.active {
+  color: #bccdda !important;
+}
+
+.nav-link.active:hover {
+  color: #aabbc9af !important;
 }
 
 .navbar-toggler {

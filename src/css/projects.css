@@ -1,0 +1,13 @@
+#projects {
+    height: calc(100vh - 100px);
+    display: flex;
+    text-align: center;
+}
+
+#projects-row {
+    align-self: center;
+}
+
+#projects-row * {
+    margin: auto;
+}

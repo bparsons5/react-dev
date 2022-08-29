@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col';
 
 import '../css/experience.css';
 
+import { BsDashLg } from "react-icons/bs";
+
 const Experience = () => {
 
   return (
@@ -14,7 +16,13 @@ const Experience = () => {
             <h1 id='name'>Exp</h1>
           </Col>
           <Col xs={12}>
-            <h2 id='tagline'>I develop products infused with innovation and creativity.</h2>
+            <div>
+              <div><BsDashLg/> resume items - education, work experience</div>
+              <div><BsDashLg/> fullstack</div>
+              <div><BsDashLg/> stats? see example website</div>
+              <div><BsDashLg/> awards</div>
+              <div><BsDashLg/> nod to projects of late</div>
+            </div>
           </Col>
         </Row>
       </Col>

@@ -6,6 +6,7 @@
 
 #experience-row {
     align-self: center;
+    min-width: 100%;
 }
 
 #experience-row * {

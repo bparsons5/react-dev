@@ -15,7 +15,7 @@ const About = () => {
       <Col id="about" xs={11} sm={11} md={9} xl={7}>
         <Row id="about-row">
           <Col xs={12} md={8}>
-            <h3 id='about-description'>I am an engineer who's passion for many art forms has led me to create visually influenced web applications. These often manifest themselves through data-driven analysis and intuitive graphics.</h3>
+            <h3 id='about-description'>I am an engineer who's passion for many art forms has led me to create visually influenced web applications. These often manifest themselves through data-driven analytics and intuitive graphics.</h3>
             <h6 id='about-technical'>main techincal interests</h6>
             <div id='about-skills'>
               <span><BsCode className='about-skills-icon'/>Python</span>

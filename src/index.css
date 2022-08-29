@@ -172,6 +172,7 @@ footer {
   background-color: transparent;
   border: 1px solid #bccdda1c;
   color: #bccdda;
+  line-height: 36px;
 }
 
 .btn:focus {

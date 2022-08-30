@@ -29,8 +29,8 @@ const About = () => {
           </Col>
           <Col xs={6}  md={4}>
             {/* <img id='about-profile' src={profilePicture} alt='about-profile'/> */}
-            <img id='about-profile' src='./images/profile-picture.jpeg' alt='about-profile'/>
-            {/* <img id='about-profile2' src='./images/logo-white.png' alt='about-profile2'/> */}
+            <img id='about-profile' src='./images/profile-picture.png' alt='about-profile'/>
+            <img id='about-profile2' src='./images/logo-white.png' alt='about-profile2'/>
           </Col>
         </Row>
       </Col>

@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 // import Image from 'react-bootstrap/Image'
 
 import '../css/about.css';
-import profilePicture from '../images/MargaretWroblewskiPhotography__1.jpeg'
+// import profilePicture from '../images/MargaretWroblewskiPhotography__1.jpeg'
 import { BsCode } from "react-icons/bs";
 
 
@@ -28,8 +28,7 @@ const About = () => {
             <p id='about-resume'>for more skills, checkout out my <a id='about-resume-link' href='https://drive.google.com/file/d/1UFBZjwpirNNVCuxiPMb0rGs2dQqCP0RE/view?usp=sharing'>resume</a></p>
           </Col>
           <Col xs={6}  md={4}>
-            <img id='about-profile' src={profilePicture} alt='about-profile'/>
-            <img id='about-profile2' src='./images/logo-white.png' alt='about-profile2'/>
+            <img id='about-profile' src='./images/MargaretWroblewskiPhotography__1.png' alt='about-profile'/>
           </Col>
         </Row>
       </Col>

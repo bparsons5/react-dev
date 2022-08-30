@@ -28,10 +28,7 @@ const About = () => {
             <p id='about-resume'>for more skills, checkout out my <a id='about-resume-link' href='https://drive.google.com/file/d/1UFBZjwpirNNVCuxiPMb0rGs2dQqCP0RE/view?usp=sharing'>resume</a></p>
           </Col>
           <Col xs={6}  md={4}>
-            {/* image found in the ./src/images/<filename>.png */}
             <img id='about-profile' src={profilePicture} alt='about-profile'/>
-            {/* image found in the ./public/images/<filename>.png */}
-            <img id='about-profile' src='./images/profile-picture.png' alt='about-profile'/>
           </Col>
         </Row>
       </Col>

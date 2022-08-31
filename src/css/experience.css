@@ -85,20 +85,20 @@
 }
 
 .section-list-item {
-    min-width: 250px;
     display: inline-block;
     margin: 0px;
+    padding: 0px;
 }
 
 .section-list .sub-section-text {
     color: white;
-    min-width: 250px;
     max-width: calc(100% - 16px);
-    float: right;
+    float: left;
 }
 
 .section-list-icon {
     padding: 2px;
     color: #244259;
-    margin: 0px 3px 2px 0px !important;
+    margin: 3px 3px 0px 0px !important;
+    float: left;
 }

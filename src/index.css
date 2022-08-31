@@ -128,6 +128,7 @@ footer {
   /* backdrop-filter: blur(4px); */
   background-color: #244259;
   z-index: 0;
+  pointer-events: none;
 }
 
 #blur-bottom {
@@ -141,6 +142,7 @@ footer {
   /* backdrop-filter: blur(4px); */
   background-color: #244259;
   z-index: 0;
+  pointer-events: none;
 }
 
 /* width */

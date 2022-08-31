@@ -67,58 +67,59 @@ const Experience = () => {
                         </Col>
                         <Col xs={12} className='sub-section'>
                             <h5>Coursework</h5>
-                            <div className='section-list'>
-                              <div className='section-list-item'>
+
+                            <Row className='section-list'>
+                              <Col xs={12} lg={6} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>Software Development Methods</p>
-                              </div>
-                              <div className='section-list-item'>
+                              </Col>
+                              <Col xs={12} lg={6} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>Embedded Computer Systems</p>
-                              </div>
-                              <div className='section-list-item'>
+                              </Col>
+                              <Col xs={12} lg={6} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>Computer Networks</p>
-                              </div>
-                              <div className='section-list-item'>
+                              </Col>
+                              <Col xs={12} lg={6} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>Microelectronics</p>
-                              </div>
-                              <div className='section-list-item'>
+                              </Col>
+                              <Col xs={12} lg={6} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>Computer Vision</p>
-                              </div>
-                              <div className='section-list-item'>
+                              </Col>
+                              <Col xs={12} lg={6} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>Autonomous Mobile Robotics</p>
-                              </div>
-                            </div>
+                              </Col>
+                            </Row>
                         </Col>
                         <Col xs={12} className='sub-section'>
                             <h5>Leadership</h5>
-                            <div className='section-list'>
-                              <div className='section-list-item'>
+                            <Row className='section-list'>
+                              <Col xs={12} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>ECE Fundamentals I, II, & III: Electronic Circuits Head Teacher's Assistant</p>
-                              </div>
-                              <div className='section-list-item'>
+                              </Col>
+                              <Col xs={12} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>Engineering Club Project Manager & President</p>
-                              </div>
-                            </div>
+                              </Col>
+                            </Row>
                         </Col>
                         <Col xs={12} className='sub-section'>
                             <h5>Accomplishments</h5>
-                            <div className='section-list'>
-                              <div className='section-list-item'>
+                            <Row className='section-list'>
+                              <Col xs={12} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>4th nationwide ASEE Robotics Competition '14</p>
-                              </div>
-                              <div className='section-list-item'>
+                              </Col>
+                              <Col xs={12} className='section-list-item'>
                                 <BsStopFill className='section-list-icon'/>
                                 <p class='sub-section-text'>Structural Ingenuity Award and Cheri Mellilo Award at CANstruction '13</p>
-                              </div>
-                            </div>
+                              </Col>
+                            </Row>
                         </Col>
                       </Row>
                     </Tab.Pane>

@@ -10,5 +10,95 @@
 }
 
 #experience-row * {
+    margin: 0px auto;
+}
+
+#experience-row .col-1 {
+    padding: 0px;
+}
+
+.nav-link.active {
+    background-color: #182a36 !important;
+    color: #bccdda !important;
+}
+
+#experience-resume {
+    padding: 5px;
+    color: #72808a;
+}
+
+#experience .nav-link {
+    padding: 8px 12px;
+}
+
+#pills-column {
+    float: left;
+}
+
+#experience-main {
+    float: right;
+    margin-left: auto;
+}
+
+.experience-section {
+    text-align: left;
+    background-color: #8198a8;
+    padding: 15px 8px;
+    border-radius: 5px;
+    color: #244259;
+}
+
+.experience-section h4 {
+    color: #182a36;
+}
+
+.experience-section p {
+    color: #516a78;
+}
+
+.experience-section-top {
+    margin-top: 5px !important;
+}
+
+.nav-link h6 {
+    margin: 0px;
+}
+
+#uva-col {
     margin: auto;
+}
+
+#uva {
+    max-width: 100%;
+}
+
+.sub-section {
+    padding: 15px 30px;
+}
+
+.sub-section p {
+    color: white;
+}
+
+.section-list {
+
+}
+
+.section-list-item {
+    min-width: 250px;
+    display: inline-block;
+    margin: 0px;
+}
+
+.section-list .sub-section-text {
+    color: white;
+    min-width: 250px;
+    max-width: calc(100% - 16px);
+    float: right;
+}
+
+.section-list-icon {
+    padding: 2px;
+    color: #244259;
+    margin: 0px 3px 2px 0px !important;
 }

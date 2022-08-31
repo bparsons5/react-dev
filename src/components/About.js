@@ -20,12 +20,12 @@ const About = () => {
             <div id='about-skills'>
               <span><BsCode className='about-skills-icon'/>Python</span>
               <span><BsCode className='about-skills-icon'/>React</span>
-              <span><BsCode className='about-skills-icon'/>Javascript</span>
               <span><BsCode className='about-skills-icon'/>NodeJS</span>
+              <span><BsCode className='about-skills-icon'/>GraphQL</span>
               <span><BsCode className='about-skills-icon'/>R</span>
               <span><BsCode className='about-skills-icon'/>Git</span>
             </div>
-            <p id='about-resume'>for more skills, checkout out my <a id='about-resume-link' href='https://drive.google.com/file/d/1UFBZjwpirNNVCuxiPMb0rGs2dQqCP0RE/view?usp=sharing'>resume</a></p>
+            <p id='about-resume'>for more skills, checkout out my <a id='about-resume-link' href='https://drive.google.com/file/d/1UFBZjwpirNNVCuxiPMb0rGs2dQqCP0RE/view?usp=sharing' target='_blank' rel='noreferrer'>resume</a></p>
           </Col>
           <Col xs={6}  md={4}>
             <img id='about-profile' src={profilePicture} alt='about-profile'/>

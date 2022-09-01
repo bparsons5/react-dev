@@ -1,5 +1,5 @@
 #experience {
-    min-height: 100vh;
+    margin: 100px 0px 50px 0px;
     display: flex;
     text-align: center;
 }
@@ -20,6 +20,15 @@
 .nav-link.active {
     background-color: #182a36 !important;
     color: #bccdda !important;
+}
+
+.pills {
+    margin-bottom: 15px !important;
+}
+
+.pills * {
+    margin: 0px !important;
+    /* width: 20%; */
 }
 
 #experience-resume {
@@ -57,18 +66,14 @@
 }
 
 .experience-section-top {
-    margin-top: 5px !important;
+    margin-top: 10px !important;
 }
 
 .nav-link h6 {
     margin: 0px;
 }
 
-#uva-col {
-    margin: auto;
-}
-
-#uva {
+.experience-img {
     max-width: 100%;
 }
 
@@ -80,6 +85,14 @@
     color: white;
 }
 
+.entry-title {
+    margin: auto 0px !important;
+}
+
+.experience-middle {
+    margin: 20px 0px !important;
+}
+
 .section-list {
 
 }
@@ -88,6 +101,10 @@
     display: inline-block;
     margin: 0px;
     padding: 0px;
+}
+
+.job {
+    margin-bottom: 15px !important;
 }
 
 .section-list .sub-section-text {

@@ -5,7 +5,7 @@
 
 #title-row {
     align-self: center;
-    max-width: 100%;
+    min-width: 100%;
 }
 
 #hello {
@@ -43,6 +43,13 @@
     display: block;
     margin: 5px 0px 0px 7px;
 }
+
+@media screen and (max-width: 499px) {
+    #checkout {
+        padding-bottom: 70px;
+    }
+}
+
 
 #checkout .icon {
     margin-bottom: 4px;

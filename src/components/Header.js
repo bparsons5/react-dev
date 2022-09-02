@@ -1,7 +1,8 @@
 // import PropTypes from 'prop-types'
-import { useLocation } from 'react-router-dom'
+// import { useLocation } from 'react-router-dom'
 
 import '../css/header.css';
+// import $ from 'jquery';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
@@ -14,15 +15,11 @@ import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'
 import { MdCameraRoll } from "react-icons/md";
 
 const Header = () => {
-    const location = useLocation()
-
-    const scrollTo = () => {
-        console.log('click')
-    }
+    // const location = useLocation()
     
     return (
         <>
-            <Navbar key='md' expand='md'>
+            <Navbar key='md' expand='md' collapseOnSelect>
                 <Container fluid>
                     <a href='/' className='logo'>
                         {/* <img src={require('../images/logo-white.png')} height='26' className='ms-2'/> is this how externals are supposed to be called? */}
@@ -38,17 +35,17 @@ const Header = () => {
                             <Nav.Link href="#experience">Experience</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
-                            <a type='button' href='https://drive.google.com/file/d/1UFBZjwpirNNVCuxiPMb0rGs2dQqCP0RE/view?usp=sharing' target='_blank' className='ms-3 btn'>Resume</a>
+                            <a type='button' href='https://drive.google.com/file/d/1UFBZjwpirNNVCuxiPMb0rGs2dQqCP0RE/view?usp=sharing' target='_blank' rel='noreferrer' className='ms-3 btn'>Resume</a>
                         </Nav>
                         <div id="phone-links">
                             <div id="phone-socials">
-                                <a target="_blank" href="https://github.com/bparsons5"><FaGithub /></a>
-                                <a target="_blank" href="https://www.linkedin.com/in/robertbrettparsons/"><FaLinkedin /></a>
-                                <a target="_blank" href="https://www.instagram.com/rbrettparsons/?hl=en"><FaInstagram /></a>
-                                <a target="_blank" href="https://rbrettparsons.com"><MdCameraRoll /></a>
+                                <a target="_blank" href="https://github.com/bparsons5" rel='noreferrer'><FaGithub /></a>
+                                <a target="_blank" href="https://www.linkedin.com/in/robertbrettparsons/" rel='noreferrer'><FaLinkedin /></a>
+                                <a target="_blank" href="https://www.instagram.com/rbrettparsons/?hl=en" rel='noreferrer'><FaInstagram /></a>
+                                <a target="_blank" href="https://rbrettparsons.com" rel='noreferrer'><MdCameraRoll /></a>
                             </div>
                             <div id="phone-email">
-                                <a target="_blank" href="mailto:rbrettparsons@gmail.com">rbrettparsons@gmail.com</a>
+                                <a target="_blank" href="mailto:rbrettparsons@gmail.com" rel='noreferrer'>rbrettparsons@gmail.com</a>
                             </div>
                         </div>
                     </Offcanvas.Body>

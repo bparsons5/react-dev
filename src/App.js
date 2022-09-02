@@ -1,7 +1,6 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' 
 import Container from 'react-bootstrap/Container';
-import $ from 'jquery';
 
 import Header from './components/Header'
 import Acknowledgements from './components/Acknowledgements'
@@ -45,6 +44,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;

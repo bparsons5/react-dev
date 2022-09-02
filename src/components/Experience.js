@@ -423,7 +423,6 @@ const Experience = () => {
                 </Col>
               </Row>
             </Tab.Container>
-
           </Col>
         </Row>
       </Col>

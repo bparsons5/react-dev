@@ -21,7 +21,7 @@ const Header = () => {
         <>
             <Navbar key='md' expand='md' collapseOnSelect>
                 <Container fluid>
-                    <a href='/' className='logo'>
+                    <a href='#title' className='logo'>
                         {/* <img src={require('../images/logo-white.png')} height='26' className='ms-2'/> is this how externals are supposed to be called? */}
                         <FontAwesomeIcon icon={faCode} />
                         <span className='logo-name'>R. Brett Parsons</span>

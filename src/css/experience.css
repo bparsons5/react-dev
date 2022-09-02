@@ -85,6 +85,10 @@
     color: white;
 }
 
+.entry-img {
+    margin: 0px !important;
+}
+
 .entry-title {
     margin: auto 0px !important;
 }
@@ -118,4 +122,51 @@
     color: #244259;
     margin: 3px 3px 0px 0px !important;
     float: left;
+}
+
+.section-list-icon {
+    padding: 2px;
+    color: #244259;
+    margin: 3px 3px 0px 0px !important;
+    float: left;
+}
+
+.section-list-icon-large {
+    padding: 2px;
+    color: #244259;
+    margin: 5px 3px 0px 0px !important;
+    float: left;
+    font-size: large;
+}
+
+.ordinary-title {
+    margin-bottom: 10px !important;
+}
+
+.section-list-identifier {
+    font-size: x-large;
+    padding: 2px;
+    color: #244259;
+    margin: 3px 3px 0px 0px !important;
+    float: left;
+}
+
+.section-list .sub-section-text-large {
+    color: white;
+    max-width: calc(100% - 22px);
+    float: left;
+    padding-top: 5px;
+}
+
+.section-list .sub-section-text-xlarge {
+    color: white;
+    max-width: calc(100% - 27px);
+    float: left;
+    padding-top: 5px;
+}
+
+.award-title {
+    font-weight: 600;
+    color: #182a36 !important;
+    display: inline;
 }

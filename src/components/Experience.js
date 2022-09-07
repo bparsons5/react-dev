@@ -18,7 +18,7 @@ import { GiCarWheel } from "react-icons/gi";
 import { TbMovie } from "react-icons/tb";
 
 const Experience = () => {
-
+  // to update
   return (
     <Row className='section'>
       <Col id="experience" xs={11} sm={11} md={9} xl={7}>

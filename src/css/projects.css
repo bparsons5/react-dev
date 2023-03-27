@@ -11,3 +11,40 @@
 #projects-row * {
     margin: auto;
 }
+
+#weeklymoviescores {
+    max-width: 98%;
+    padding: 1%;
+    filter: grayscale(1);
+    border-radius: 20px;
+    transition: .3s;
+}
+
+#weeklymoviescores:hover {
+    max-width: 100%;    
+    border-radius: 15px;
+    padding: 0%;
+    transition: .5s;
+    filter: grayscale(0);
+}
+
+.project {
+    padding: 40px;
+}
+
+.project-description {
+    text-align: left;
+}
+
+.tagline {
+    color: #74c3ff;
+}
+
+.title {
+    color: white;
+    margin-top: 10px !important;
+}
+
+.project-photo {
+    margin-bottom: 20px !important;
+}

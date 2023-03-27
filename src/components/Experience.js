@@ -240,16 +240,24 @@ const Experience = () => {
                         <Col xs={12} className=''>
                             <Row className='section-list'>
                               <Col xs={12} className='section-list-item job'>
-                                <BsAwardFill className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Supernova Award 2021</h6> - “Primary engineer for 4 key projects supporting the NGAArchitecture & Engineering Group. Spearheaded the data viz roadmap for the transformation to Model-Based System Engineering. Led enterprise engineering efforts for JIRA optimization. Recognized by the client and govt as the SME for GEOINT Enterprise Architecture improvements using Neo4J graph DB. Corporately, creates leadership roles and leverages his engineering expertise to expand Apogee.”</div>
+                                <BsShieldFillPlus className='section-list-identifier'/>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Murray Cinema Inc: Waiting For April (2023)</h6> - Executive producer for <i>Waiting For April</i> short film as the owner of Murray Cinema Inc.</div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsAwardFill className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Spot Award 2019</h6> - “Highly respected and hardworking APOGEE Foundry Lab leader. Busy with his own internal and external deadlines, recognized Apogee was shorthanded organizing the rollout of APOGEE's flagship data visualization training: Tableau Essentials. Can-do attitude, communications skills, and proficiency reflect greatly on both his and APOGEE's success and reputation.”</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>NEE Contract Award (2022)</h6> - “Thank you for your outstanding contributions to the Geospatial Intelligence mission. Your effort and dedication are greately appreciated.”</div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsAwardFill className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Spot Award 2018</h6> - “Completed a major migration and numerous milestone achievements in the design & development of the APOGEE flagship modeling & simulation software: OCULUS. Aimed to enhance and replace client rapid analysis tools used to support NRO satellite and DoD UAV programs. Generated a lot of support from company management.”</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Supernova Award (2021)</h6> - “Primary engineer for 4 key projects supporting the NGAArchitecture & Engineering Group. Spearheaded the data viz roadmap for the transformation to Model-Based System Engineering. Led enterprise engineering efforts for JIRA optimization. Recognized by the client and govt as the SME for GEOINT Enterprise Architecture improvements using Neo4J graph DB. Corporately, creates leadership roles and leverages his engineering expertise to expand Apogee.”</div>
+                              </Col>
+                              <Col xs={12} className='section-list-item job'>
+                                <BsAwardFill className='section-list-identifier'/>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Spot Award (2019)</h6> - “Highly respected and hardworking APOGEE Foundry Lab leader. Busy with his own internal and external deadlines, recognized Apogee was shorthanded organizing the rollout of APOGEE's flagship data visualization training: Tableau Essentials. Can-do attitude, communications skills, and proficiency reflect greatly on both his and APOGEE's success and reputation.”</div>
+                              </Col>
+                              <Col xs={12} className='section-list-item job'>
+                                <BsAwardFill className='section-list-identifier'/>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Spot Award (2018)</h6> - “Completed a major migration and numerous milestone achievements in the design & development of the APOGEE flagship modeling & simulation software: OCULUS. Aimed to enhance and replace client rapid analysis tools used to support NRO satellite and DoD UAV programs. Generated a lot of support from company management.”</div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsShieldFillPlus className='section-list-identifier'/>

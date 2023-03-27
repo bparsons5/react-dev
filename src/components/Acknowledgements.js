@@ -5,7 +5,7 @@ const Acknowledgements = () => {
   return (
     <div id='acknowledgements'>
        <p>Designed & Built by Brett Parsons.</p> 
-       <p>&copy; 2022</p> 
+       <p>&copy; 2023</p> 
     </div>
   )
 }

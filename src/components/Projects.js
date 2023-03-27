@@ -21,7 +21,7 @@ const Projects = () => {
             <Col className='project-description' xs={12} sm={5}>
               <h2 className='tagline'>Spotify App</h2>
               <h4 className='title'>Weekly Movie Scores</h4>
-              <p className='description'>An automated spotify playlist and web app to view the playlist</p>
+              <p className='description'>A weekly automated Spotify playlist that adds soundtracks of the movies that came out in the past week. Updates every Friday.</p>
             </Col>
           </Row>
         </Row>

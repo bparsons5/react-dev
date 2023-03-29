@@ -245,7 +245,7 @@ const Experience = () => {
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsAwardFill className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>NEE Contract Award (2022)</h6> - “Thank you for your outstanding contributions to the Geospatial Intelligence mission. Your effort and dedication are greately appreciated.”</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>NEE Contract Award (2022)</h6> - “Thank you for your outstanding contributions to the Geospatial Intelligence mission. Your effort and dedication are greatly appreciated.”</div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsAwardFill className='section-list-identifier'/>

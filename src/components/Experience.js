@@ -32,14 +32,6 @@ const Experience = () => {
                     <Row>
                       <Col xs={3} md={12}>
                         <Nav.Item>
-                          <Nav.Link eventKey="education">
-                            <MdSchool className='d-md-none'/>
-                            <h6 className='d-none d-md-block'>Education</h6>
-                          </Nav.Link>
-                        </Nav.Item>
-                      </Col>
-                      <Col xs={3} md={12}>
-                        <Nav.Item>
                           <Nav.Link eventKey="professional">
                             <MdWork className='d-md-none'/>
                             <h6 className='d-none d-md-block'>Professional</h6>
@@ -62,83 +54,20 @@ const Experience = () => {
                           </Nav.Link>
                         </Nav.Item>
                       </Col>
+                      <Col xs={3} md={12}>
+                        <Nav.Item>
+                          <Nav.Link eventKey="education">
+                            <MdSchool className='d-md-none'/>
+                            <h6 className='d-none d-md-block'>Education</h6>
+                          </Nav.Link>
+                        </Nav.Item>
+                      </Col>
                     </Row>
                   </Nav>
                 </Col>
                 <Col id='experience-main' xs={12} md={8} lg={9}>
                   <Tab.Content>
-                    <Tab.Pane eventKey="education" className='experience-section'>
-                      <Row>
-                        <Col xs={4} sm={3} md={3} className='entry-img'>
-                          <img id='uva' className='experience-img' src={uva} alt='uva'/>
-                        </Col>
-                        <Col xs={12} md={9} className='entry-title'>
-                          <h6 className='experience-section-top'>University of Virginia</h6>
-                          <h4>B.S. Engineering and Applied Science - Electrical Engineering.</h4>
-                          <p>GPA 3.364</p>
-                        </Col>
-                        <Col xs={12} className='sub-section'>
-                            <h5>Capstone</h5>
-                            <p>Managed robot's chassis development, circuit board design, component integration, and onboard PID controller for swarm robotics project utilizing computer vision and remote communication for optimized navigation through tools such as Inventor, Multisim, and Energia / C++.</p>
-                        </Col>
-                        <Col xs={12} className='sub-section'>
-                            <h5>Coursework</h5>
-
-                            <Row className='section-list'>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Software Development Methods</p>
-                              </Col>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Embedded Computer Systems</p>
-                              </Col>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Computer Networks</p>
-                              </Col>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Microelectronics</p>
-                              </Col>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Computer Vision</p>
-                              </Col>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Autonomous Mobile Robotics</p>
-                              </Col>
-                            </Row>
-                        </Col>
-                        <Col xs={12} className='sub-section'>
-                            <h5>Leadership</h5>
-                            <Row className='section-list'>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>ECE Fundamentals I, II, & III: Electronic Circuits Head T.A.</p>
-                              </Col>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Engineering Club Project Manager & President</p>
-                              </Col>
-                            </Row>
-                        </Col>
-                        <Col xs={12} className='sub-section'>
-                            <h5>Accomplishments</h5>
-                            <Row className='section-list'>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>4th nationwide ASEE Robotics Competition '14</p>
-                              </Col>
-                              <Col xs={12} className='section-list-item'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Structural Ingenuity Award and Cheri Mellilo Award at CANstruction '13</p>
-                              </Col>
-                            </Row>
-                        </Col>
-                      </Row>
-                    </Tab.Pane>
+                    
                     <Tab.Pane eventKey="professional" className='experience-section'>
                       <Row>
                         <Col xs={4} sm={3} md={3} className='entry-img'>
@@ -183,8 +112,6 @@ const Experience = () => {
                             </Row>
                         </Col>
                       </Row>
-
-
                       <Row className='experience-middle'>
                         <Col xs={4} sm={3} md={3} className='entry-img'>
                           <img id='uva-2' className='experience-img' src={uva} alt='uva-2'/>
@@ -211,8 +138,6 @@ const Experience = () => {
                             </Row>
                         </Col>
                       </Row>
-
-
                       <Row>
                         <Col xs={4} sm={3} md={3} className='entry-img'>
                           <img id='qed' className='experience-img' src={qed} alt='qed'/>
@@ -232,6 +157,8 @@ const Experience = () => {
                         </Col>
                       </Row>
                     </Tab.Pane>
+
+                    
                     <Tab.Pane eventKey="awards" className='experience-section'>
                       <Row>
                         <Col xs={12} className='entry-title'>
@@ -271,6 +198,9 @@ const Experience = () => {
                         </Col>
                       </Row>
                     </Tab.Pane>
+
+
+
                     <Tab.Pane eventKey="skills" className='experience-section'>
                       <Row>
                         <Col xs={12} className='entry-title'>
@@ -409,7 +339,7 @@ const Experience = () => {
                             <Row className='section-list'>
                               <Col xs={12} md={6} className='section-list-item job'>
                                 <MdCameraRoll className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>5 years of film photography - <a target='_blank' href='https://rbrettparsons.com' rel="noreferrer">rbrettparsons.com</a></p>
+                                <p className='sub-section-text-large'>7 years of film photography - <a target='_blank' href='https://rbrettparsons.com' rel="noreferrer">rbrettparsons.com</a></p>
                               </Col>
                               <Col xs={12} md={6} className='section-list-item job'>
                                 <GiCarWheel className='section-list-icon-large'/>
@@ -422,6 +352,80 @@ const Experience = () => {
                               <Col xs={12} md={6} className='section-list-item job'>
                                 <BsMusicNoteBeamed className='section-list-icon-large'/>
                                 <p className='sub-section-text-large'>Music Production</p>
+                              </Col>
+                            </Row>
+                        </Col>
+                      </Row>
+                    </Tab.Pane>
+
+
+                    <Tab.Pane eventKey="education" className='experience-section'>
+                      <Row>
+                        <Col xs={4} sm={3} md={3} className='entry-img'>
+                          <img id='uva' className='experience-img' src={uva} alt='uva'/>
+                        </Col>
+                        <Col xs={12} md={9} className='entry-title'>
+                          <h6 className='experience-section-top'>University of Virginia</h6>
+                          <h4>B.S. Engineering and Applied Science - Electrical Engineering.</h4>
+                          <p>GPA 3.364</p>
+                        </Col>
+                        <Col xs={12} className='sub-section'>
+                            <h5>Capstone</h5>
+                            <p>Managed robot's chassis development, circuit board design, component integration, and onboard PID controller for swarm robotics project utilizing computer vision and remote communication for optimized navigation through tools such as Inventor, Multisim, and Energia / C++.</p>
+                        </Col>
+                        <Col xs={12} className='sub-section'>
+                            <h5>Coursework</h5>
+
+                            <Row className='section-list'>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Software Development Methods</p>
+                              </Col>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Embedded Computer Systems</p>
+                              </Col>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Computer Networks</p>
+                              </Col>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Microelectronics</p>
+                              </Col>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Computer Vision</p>
+                              </Col>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Autonomous Mobile Robotics</p>
+                              </Col>
+                            </Row>
+                        </Col>
+                        <Col xs={12} className='sub-section'>
+                            <h5>Leadership</h5>
+                            <Row className='section-list'>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>ECE Fundamentals I, II, & III: Electronic Circuits Head T.A.</p>
+                              </Col>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Engineering Club Project Manager & President</p>
+                              </Col>
+                            </Row>
+                        </Col>
+                        <Col xs={12} className='sub-section'>
+                            <h5>Accomplishments</h5>
+                            <Row className='section-list'>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>4th nationwide ASEE Robotics Competition '14</p>
+                              </Col>
+                              <Col xs={12} className='section-list-item'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Structural Ingenuity Award and Cheri Mellilo Award at CANstruction '13</p>
                               </Col>
                             </Row>
                         </Col>

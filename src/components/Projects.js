@@ -13,6 +13,7 @@ const Projects = () => {
         <Row id="projects-row">
           <Col xs={12}>
             <h1 id='name'>Projects</h1>
+            <p id='caveat'><i>(Note that most of my work projects & code are unavailable to the public unfortunately)</i></p>
           </Col>
           <Row className='project'>
             <Col className='project-photo' xs={12} sm={7}>

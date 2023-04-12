@@ -24,7 +24,7 @@ const Experience = () => {
       <Col id="experience" xs={11} sm={11} md={9} xl={7}>
         <Row id="experience-row">
           <Col xs={12}>
-            <Tab.Container id="left-tabs-example" defaultActiveKey="education">
+            <Tab.Container id="left-tabs-example" defaultActiveKey="professional">
               <Row>
                 <Col id='pills-column' xs={12} md={3} lg={2}>
                   <Nav variant="pills" className="flex-column pills">

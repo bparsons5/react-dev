@@ -35,7 +35,7 @@ const Header = () => {
                             <Nav.Link href="#experience">Experience</Nav.Link>
                             <Nav.Link href="#projects">Projects</Nav.Link>
                             <Nav.Link href="#contact">Contact</Nav.Link>
-                            <a type='button' href='https://drive.google.com/file/d/1-JLEtfCtz__tIYrbZkZ2tHrNrweOXn8n/view?usp=share_link' target='_blank' rel='noreferrer' className='ms-3 btn'>Resume</a>
+                            <a type='button' href='https://drive.google.com/file/d/1GswLfRz6qJ6YqPm6zRnRHKR7PeTAKZEG/view?usp=share_link' target='_blank' rel='noreferrer' className='ms-3 btn'>Resume</a>
                         </Nav>
                         <div id="phone-links">
                             <div id="phone-socials">

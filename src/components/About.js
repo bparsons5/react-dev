@@ -25,7 +25,7 @@ const About = () => {
               <span><BsCode className='about-skills-icon'/>R</span>
               <span><BsCode className='about-skills-icon'/>Git</span>
             </div>
-            <p id='about-resume'>for more skills, checkout out my <a id='about-resume-link' href='https://drive.google.com/file/d/1-JLEtfCtz__tIYrbZkZ2tHrNrweOXn8n/view?usp=share_link' target='_blank' rel='noreferrer'>resume</a></p>
+            <p id='about-resume'>for more skills, checkout out my <a id='about-resume-link' href='https://drive.google.com/file/d/1GswLfRz6qJ6YqPm6zRnRHKR7PeTAKZEG/view?usp=share_link' target='_blank' rel='noreferrer'>resume</a></p>
           </Col>
           <Col xs={6}  md={4}>
             <img id='about-profile' src={profilePicture} alt='about-profile'/>

@@ -8,7 +8,7 @@ const Social = () => {
   return (
     <div id='social'>
         <a target="_blank" href="https://github.com/bparsons5"><FaGithub /></a>
-        <a target="_blank" href="https://www.linkedin.com/in/robertbrettparsons/"><FaLinkedin /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/rbrettparsons/"><FaLinkedin /></a>
         <a target="_blank" href="https://www.instagram.com/rbrettparsons/?hl=en"><FaInstagram /></a>
         <a target="_blank" href="https://rbrettparsons.com"><MdCameraRoll /></a>
     </div>

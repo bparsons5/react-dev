@@ -18,7 +18,7 @@ import { GiCarWheel } from "react-icons/gi";
 import { TbMovie } from "react-icons/tb";
 
 let skills = `JavaScript, Python, R, C#, Node.js, React, D3, Plotly, CesiumJS, APIs, GraphQL, Bootstrap, Git,
-Amazon Web Services, HTML, CSS, JS, jQuery, TypeScript, SQL, R Shiny, Google App Script, Visual Studio Code,
+Amazon Web Services, HTML, CSS, jQuery, TypeScript, SQL, R Shiny, Google App Script, Visual Studio Code,
 Neo4j, Tableau, Power BI`;
 
 let skillsArr = skills.split(/, |\n/)

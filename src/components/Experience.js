@@ -17,6 +17,12 @@ import { TiCode } from "react-icons/ti";
 import { GiCarWheel } from "react-icons/gi";
 import { TbMovie } from "react-icons/tb";
 
+let skills = `JavaScript, Python, R, C#, Node.js, React, D3, Plotly, CesiumJS, APIs, GraphQL, Bootstrap, Git,
+Amazon Web Services, HTML, CSS, JS, jQuery, TypeScript, SQL, R Shiny, Google App Script, Visual Studio Code,
+Neo4j, Tableau, Power BI`;
+
+let skillsArr = skills.split(/, |\n/)
+
 const Experience = () => {
   // to update
   return (
@@ -83,31 +89,27 @@ const Experience = () => {
                             <Row className='section-list'>
                               <Col xs={12} className='section-list-item job'>
                                 <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Initiated, researched, pitched, engineered, and led a team of 5 on a project with impact beyond the team's entire branch by delivering a PWA web application powered by a Neo4j backend database, a GraphQL API, and dashboards utilizing ElkJS, D3, and Plotly for visualization.</p>
+                                <p className='sub-section-text'>Spearheaded a team of 5 on a project that transformed the branch's intel, operations, and policy. Developed a user-friendly PWA with scalable UI (Node.js). Implemented custom site navigation and interactive visualization (ElkJS / D3), 25+ interconnected database-driven dashboards (Neo4j / Plotly / Leaflet), and a flexible API (GraphQL / Apollo). Completed 2 months ahead of schedule.</p>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Implemented better practices within my teams through Git version control, written articles outlining lessons learned with portions of the codebase as demonstration, and headed up agile sprints using JIRA.</p>
+                                <p className='sub-section-text'>Engineered Python scripts as the team’s lead data scientist to process data and formulate algorithms (Pandas / spaCy / Difflib) illustrating data integrity and outlining data disparities. Resulted in 18+ optimized artifacts utilized by all of NGA.</p>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Became the go-to data engineer for Python scripting and developing a myriad of algorithms that determined data integrity and outlined data disparities utilizing anaconda libraries like Pandas, spaCy, Difflib, and Plotly. Outputted analysis and new data files to enhance the team's interpretation of underlying issues.</p>
+                                <p className='sub-section-text'>Revolutionized NGA JIRA data engineering and visualization (Tableau). Optimized database connection reduced ETL time from 10 hours to 23 minutes (~96% reduction). Created an impact effectiveness dashboard for NGA. Widely adopted tool due to the significant capability enhancement.</p>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Spearheaded Tableau backend optimization and dashboard visualization of NGA JIRA data resulting in a 96% reduction in turn around time. Due to the massive jump in capability, the tool was widely adopted by several teams within the scope of the broader effort.</p>
+                                <p className='sub-section-text'>Built 4 compact web apps (R Shiny / Plotly) integrating data connection, ETL, analysis, and interactive visualizations eliminating 2 previously tedious steps. Provided NGA leadership insights on manpower and position-related data. Explored Django and Flask before finalizing in Dash for Python-based redesign.</p>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Pioneered the development of an R Shiny / shinydashboard web app that would house the data connection, ETL, analysis, and front end visualization in one compact tool (something that Tableau at the time could not handle). The tool overtook static briefings for NGA leadership providing rapid answers. A redesigned python version was explored in Django, Flask, and ultimately built using Dash to be deployed via Cloud Foundry.</p>
+                                <p className='sub-section-text'>Created an ASP.NET Core MVC web app with physics powered by STK Components and visualization via CesiumJS. Focused on satellite and geospatial overhead modeling and simulation for preemptive satellite strategy. Incorporated 5-10 features into the product each week.</p>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Created an ASP.NET Core MVC web app with the physics powered by STK Components and visualization via CesiumJS. Focused on satellite and geospatial overhead modeling and simulation for preemptive satellite strategy and exploration based on optimization and resulting statistics.</p>
-                              </Col>
-                              <Col xs={12} className='section-list-item job'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Developed workflow scripts that streamlined company processes and amplified efficiency by over 50% using Google Apps tethered together through Google App Script.</p>
+                                <p className='sub-section-text'>Programmed Google Apps Scripts, connecting Google Apps to streamline company processes, resulting in a ~50% increase in efficiency.</p>
                               </Col>
                             </Row>
                         </Col>
@@ -125,15 +127,11 @@ const Experience = () => {
                             <Row className='section-list'>
                               <Col xs={12} className='section-list-item job'>
                                 <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Researched and designed 20+ lab projects for online students. Generated professional material using tools such as MATLAB, NI VirtualBench, Multisim, and Ultiboard.</p>
+                                <p className='sub-section-text'>Researched and designed 20+ lab projects for online student consumption (HTML / CSS / JavaScript / MATLAB / Multisim / Ultiboard). </p>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Integrated the engineered material into students online classes using HTML / CSS / ES6.</p>
-                              </Col>
-                              <Col xs={12} className='section-list-item job'>
-                                <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Enhanced marketability of both UVA Electrical Engineering labs and the National Instruments VirtualBench.</p>
+                                <p className='sub-section-text'>Produced 100% of the professional material used in expos and advertising that enhanced the marketability of both UVA ECE and NI VirtualBench.</p>
                               </Col>
                             </Row>
                         </Col>
@@ -168,31 +166,31 @@ const Experience = () => {
                             <Row className='section-list'>
                               <Col xs={12} className='section-list-item job'>
                                 <BsShieldFillPlus className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Murray Cinema Inc: Waiting For April (2023)</h6> - Executive producer for <i>Waiting For April</i> short film as the owner of Murray Cinema Inc.</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Murray Cinema Inc: Waiting For April (2023)</h6> - <i>Executive producer for <b>Waiting For April</b> short film as the owner of Murray Cinema Inc.</i></div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsAwardFill className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>NEE Contract Award (2022)</h6> - “Thank you for your outstanding contributions to the Geospatial Intelligence mission. Your effort and dedication are greatly appreciated.”</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>NEE Contract Award (2022)</h6> - <i>Appreciated for outstanding contributions to Geospatial Intelligence mission.</i></div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsAwardFill className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Supernova Award (2021)</h6> - “Primary engineer for 4 key projects supporting the NGAArchitecture & Engineering Group. Spearheaded the data viz roadmap for the transformation to Model-Based System Engineering. Led enterprise engineering efforts for JIRA optimization. Recognized by the client and govt as the SME for GEOINT Enterprise Architecture improvements using Neo4J graph DB. Corporately, creates leadership roles and leverages his engineering expertise to expand Apogee.”</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Supernova Award (2021)</h6> - <i>Primary engineer on 4 key NGA projects. Orchestrated data viz roadmap for Model-Based System Engineering. Led JIRA optimization and recognized as SME for GEOINT Enterprise Architecture improvements. Creates leadership roles and expands Apogee leveraging engineering expertise.</i></div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsAwardFill className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Spot Award (2019)</h6> - “Highly respected and hardworking APOGEE Foundry Lab leader. Busy with his own internal and external deadlines, recognized Apogee was shorthanded organizing the rollout of APOGEE's flagship data visualization training: Tableau Essentials. Can-do attitude, communications skills, and proficiency reflect greatly on both his and APOGEE's success and reputation.”</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Spot Award (2019)</h6> - <i>Respected APOGEE Foundry Lab leader. Organized rollout of flagship data visualization training. Demonstrates can-do attitude, strong communication, and proficiency benefiting APOGEE's success and reputation.</i></div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsAwardFill className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Spot Award (2018)</h6> - “Completed a major migration and numerous milestone achievements in the design & development of the APOGEE flagship modeling & simulation software: OCULUS. Aimed to enhance and replace client rapid analysis tools used to support NRO satellite and DoD UAV programs. Generated a lot of support from company management.”</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Apogee Spot Award (2018)</h6> - <i>Completed a major software migration for OCULUS. Enhanced client analysis tools for NRO satellite and DOD UAV programs. Generated strong support from company management.</i></div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsShieldFillPlus className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Python Community Growth</h6> - Took responsibility for understanding and improving NGA's python community by pushing for more resource consolidation, improved collaboration through migrating over to a better communication platform, and heavily insisting on contributions via posting open-source code.</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Python Community Growth</h6> - <i>Grew NGA’s Python community by promoting open-source code, enabling agency collaboration, and consolidating Python resources.</i></div>
                               </Col>
                               <Col xs={12} className='section-list-item job'>
                                 <BsShieldFillPlus className='section-list-identifier'/>
-                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Short Film Productions</h6> - First assistant director on two major short film projects that had a budget upwards of $10k and $20k.</div>
+                                <div className='sub-section-text-xlarge'><h6 className='award-title'>Short Film Productions</h6> - <i>First assistant director on two major short film projects that had a budget upwards of $10k and $20k.</i></div>
                               </Col>
                             </Row>
                         </Col>
@@ -211,7 +209,13 @@ const Experience = () => {
                         </Col>
                         <Col xs={12} className='sub-section'>
                             <Row className='section-list'>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
+                            {skillsArr ? skillsArr.map((x, index) => {
+                                return <Col xs={6} sm={4} lg={3} className='section-list-item job'>
+                                    <TiCode className='section-list-icon-large'/>
+                                    <p className='sub-section-text-large'>{x}</p>
+                                  </Col>
+                            }) : ''}
+                              {/* <Col xs={6} sm={4} lg={3} className='section-list-item job'>
                                 <TiCode className='section-list-icon-large'/>
                                 <p className='sub-section-text-large'>Python</p>
                               </Col>
@@ -249,7 +253,27 @@ const Experience = () => {
                               </Col>
                               <Col xs={6} sm={4} lg={3} className='section-list-item job'>
                                 <TiCode className='section-list-icon-large'/>
+                                <p className='sub-section-text-large'>TypeScript</p>
+                              </Col>
+                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
+                                <TiCode className='section-list-icon-large'/>
                                 <p className='sub-section-text-large'>JQuery</p>
+                              </Col>
+                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
+                                <TiCode className='section-list-icon-large'/>
+                                <p className='sub-section-text-large'>SQL</p>
+                              </Col>
+                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
+                                <TiCode className='section-list-icon-large'/>
+                                <p className='sub-section-text-large'>Amazon Web Services (AWS)</p>
+                              </Col>
+                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
+                                <TiCode className='section-list-icon-large'/>
+                                <p className='sub-section-text-large'>Heroku</p>
+                              </Col>
+                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
+                                <TiCode className='section-list-icon-large'/>
+                                <p className='sub-section-text-large'>APIs</p>
                               </Col>
                               <Col xs={6} sm={4} lg={3} className='section-list-item job'>
                                 <TiCode className='section-list-icon-large'/>
@@ -314,7 +338,7 @@ const Experience = () => {
                               <Col xs={6} sm={8} lg={9} className='section-list-item job'>
                                 <TiCode className='section-list-icon-large'/>
                                 <p className='sub-section-text-large'>Visual Studio Code</p>
-                              </Col>
+                              </Col> */}
                             </Row>
                         </Col>
                         <Col xs={12} md={9} className='entry-title'>

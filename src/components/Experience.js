@@ -22,6 +22,8 @@ Amazon Web Services, HTML, CSS, JS, jQuery, TypeScript, SQL, R Shiny, Google App
 Neo4j, Tableau, Power BI`;
 
 let skillsArr = skills.split(/, |\n/)
+let add = 4 - (skillsArr.length % 4)
+skillsArr = skillsArr.concat([...Array(add).fill('')])
 
 const Experience = () => {
   // to update
@@ -210,135 +212,16 @@ const Experience = () => {
                         <Col xs={12} className='sub-section'>
                             <Row className='section-list'>
                             {skillsArr ? skillsArr.map((x, index) => {
+                              if (x === '') {
+                                return <Col xs={6} sm={4} lg={3}>
+                                      </Col>
+                              } else {
                                 return <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                    <TiCode className='section-list-icon-large'/>
-                                    <p className='sub-section-text-large'>{x}</p>
-                                  </Col>
+                                        <TiCode className='section-list-icon-large'/>
+                                        <p className='sub-section-text-large'>{x}</p>
+                                      </Col>
+                              }
                             }) : ''}
-                              {/* <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Python</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Anaconda</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Python Dash</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Flask</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Django</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>React</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>HTML</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>CSS</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Javascript ES6</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>TypeScript</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>JQuery</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>SQL</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Amazon Web Services (AWS)</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Heroku</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>APIs</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Bootstrap</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>NodeJS</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>D3</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Plotly</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>R</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>R Shiny</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Git</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Neo4j</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>GraphQL</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Tableau</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Power BI</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Google App Script</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Agile Development</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>CesiumJS</p>
-                              </Col>
-                              <Col xs={6} sm={4} lg={3} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>C#</p>
-                              </Col>
-                              <Col xs={6} sm={8} lg={9} className='section-list-item job'>
-                                <TiCode className='section-list-icon-large'/>
-                                <p className='sub-section-text-large'>Visual Studio Code</p>
-                              </Col> */}
                             </Row>
                         </Col>
                         <Col xs={12} md={9} className='entry-title'>

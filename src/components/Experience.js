@@ -91,7 +91,11 @@ const Experience = () => {
                             <Row className='section-list'>
                               <Col xs={12} className='section-list-item job'>
                                 <BsStopFill className='section-list-icon'/>
-                                <p className='sub-section-text'>Developed technical AutoCAD drawings ~25% faster than the target with a high level of communication, collaboration, and attention to detail.</p>
+                                <p className='sub-section-text'>Quickly adapted to new team, project, and codebase through highly organized documentation and resourceful solutions to integrate feature updates for a MERN stack application (React, MongoDB, PostgreSQL, Docker). Consolidated processes in a multi-project codebase to reduce the barrier of entry to get the product up and running.</p>
+                              </Col>
+                              <Col xs={12} className='section-list-item job'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Researched & developed material for new contract lead archiving information on new SAAS technologies and testing when possible.</p>
                               </Col>
                             </Row>
                         </Col>

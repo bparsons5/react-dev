@@ -9,6 +9,7 @@ import '../css/experience.css';
 import uva from '../images/university-of-virginia-logo-black-and-white.png'
 import apogee from '../images/APOGEE-Vertical Logo_Black.png'
 import qed from '../images/qed-systems.png'
+import leadingpath from '../images/leading-path.jpeg'
 
 import { MdSchool, MdWork, MdCameraRoll } from "react-icons/md";
 import { BsAwardFill, BsStopFill, BsShieldFillPlus, BsMusicNoteBeamed } from "react-icons/bs";
@@ -78,13 +79,31 @@ const Experience = () => {
                     
                     <Tab.Pane eventKey="professional" className='experience-section'>
                       <Row>
+                        <Col xs={4} sm={3} md={3} className='entry-img leadingpath-col'>
+                          <img id='leadingpath' className='experience-img' src={leadingpath} alt='leadingpath'/>
+                        </Col>
+                        <Col xs={12} md={9} className='entry-title'>
+                          <h6 className='experience-section-top'>Leading Path</h6>
+                          <h4>Senior Software Engineer</h4>
+                          <p>2023</p>
+                        </Col>
+                        <Col xs={12} className='sub-section'>
+                            <Row className='section-list'>
+                              <Col xs={12} className='section-list-item job'>
+                                <BsStopFill className='section-list-icon'/>
+                                <p className='sub-section-text'>Developed technical AutoCAD drawings ~25% faster than the target with a high level of communication, collaboration, and attention to detail.</p>
+                              </Col>
+                            </Row>
+                        </Col>
+                      </Row>
+                      <Row>
                         <Col xs={4} sm={3} md={3} className='entry-img'>
                           <img id='apogee' className='experience-img' src={apogee} alt='apogee'/>
                         </Col>
                         <Col xs={12} md={9} className='entry-title'>
                           <h6 className='experience-section-top'>Apogee Integration</h6>
                           <h4>Computer Scientist & Data Engineer</h4>
-                          <p>October 2017 - Present</p>
+                          <p>October 2017 - 2023</p>
                         </Col>
                         {/* paraphrase down to just describe my roll */}
                         <Col xs={12} className='sub-section'>
@@ -139,7 +158,7 @@ const Experience = () => {
                         </Col>
                       </Row>
                       <Row>
-                        <Col xs={4} sm={3} md={3} className='entry-img'>
+                        <Col xs={4} sm={3} md={3} className='entry-img qed-col'>
                           <img id='qed' className='experience-img' src={qed} alt='qed'/>
                         </Col>
                         <Col xs={12} md={9} className='entry-title'>

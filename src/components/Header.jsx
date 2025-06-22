@@ -3,7 +3,6 @@ import React from 'react';
 // import { useLocation } from 'react-router-dom'
 
 import '../css/header.css';
-// import $ from 'jquery';
 
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';

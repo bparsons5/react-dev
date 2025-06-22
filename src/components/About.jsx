@@ -28,7 +28,7 @@ const About = () => {
 						</div>
 						<p id="about-resume">
 							for more skills, scroll down or check out my
-							<a id="about-resume-link" href="https://docs.google.com/document/d/1uGI0c02SQK97FTZHn3qWhFaRsofIdNBMOm7sDcPxfwU/edit?usp=share_link" target="_blank" rel="noreferrer">resume</a>
+							<a id="about-resume-link" href="https://docs.google.com/document/d/1uGI0c02SQK97FTZHn3qWhFaRsofIdNBMOm7sDcPxfwU/edit?usp=share_link" target="_blank" rel="noreferrer">{' resume'}</a>
 						</p>
 					</Col>
 					<Col xs={6} md={4}>

@@ -52,7 +52,7 @@
 .experience-section {
     text-align: left;
     background-color: #8198a8;
-    padding: 15px 8px;
+    padding: 20px 12px 15px 12px;
     border-radius: 5px;
     color: #244259;
 }
@@ -74,8 +74,17 @@
 }
 
 .experience-img {
+    max-width: 90%;
+    border-radius: 5px;
+    filter: grayscale(100%);
+    margin-top: 13px !important;
+}
+
+.experience-img-small {
     max-width: 100%;
     border-radius: 5px;
+    filter: grayscale(100%);
+    margin-top: 13px !important;
 }
 
 .sub-section {
@@ -88,6 +97,11 @@
 
 .entry-img {
     margin: 0px !important;
+    padding-right: 0px !important;
+}
+
+.row:has(> .entry-img):not(:first-child) {
+    margin-top: 20px !important;
 }
 
 .entry-title {
@@ -96,10 +110,6 @@
 
 .experience-middle {
     margin: 20px 0px !important;
-}
-
-.section-list {
-
 }
 
 .section-list-item {
@@ -174,10 +184,10 @@
 
 .qed-col {
     padding-right: 20px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }
 
 .leadingpath-col {
     padding-right: 30px;
-    padding-left: 20px;
+    /* padding-left: 20px; */
 }

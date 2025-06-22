@@ -2,15 +2,15 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom' 
 import Container from 'react-bootstrap/Container';
 
-import Header from './components/Header'
-import Acknowledgements from './components/Acknowledgements'
-import Title from './components/Title'
-import About from './components/About'
-import Projects from './components/Projects'
-import Experience from './components/Experience'
-import Contact from './components/Contact'
-import Dashboard from './components/Dashboard'
-import Footer from './components/Footer'
+import Header from './components/Header';
+import Acknowledgements from './components/Acknowledgements';
+import Title from './components/Title';
+import About from './components/About';
+import Projects from './components/Projects';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
+import Dashboard from './components/Dashboard';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -24,13 +24,9 @@ function App() {
               <Container>
                 <Title />
 
-                {/* About */}
                 <About /> 
-                {/* Experience */}
                 <Experience />
-                {/* Projects */}
                 <Projects />
-                {/* Contact */}
                 <Contact />
 
                 <Acknowledgements />

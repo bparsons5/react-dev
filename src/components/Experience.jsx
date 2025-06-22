@@ -60,12 +60,7 @@ const Experience = () => {
 			title: 'Senior Full-Stack Software Engineer',
 			date: '2024',
 			bullets: [
-				'Developed a React-based web application with a focus on user experience and data visualization. Utilized a variety of tools and technologies including React, Node.js, Express.js, MongoDB, PostgreSQL, Docker, and AWS Lambda.',
-				'Collaborated with a team of developers to create a robust and scalable backend system for a web application. Utilized a variety of tools and technologies including React, Node.js, Express.js, MongoDB, PostgreSQL, Docker, and AWS Lambda.',
-				'Led the design and development of feature-rich React web applications using OpenLayers, ag-Grid, D3.js, and RESTful APIs, focusing on data visualization and user experience across multiple data sources.',
-				'Managed up to 5 concurrent projects, creating custom layouts and workflows while balancing creativity and innovation with technical constraints.',
-				'Implemented CI/CD processes using Jenkins and Nginx, and utilized tools like Keycloak for secure authentication and PgAdmin for database management.',
-				'Employed Agile methodologies, including Scrum and Kanban, to drive sprint planning and user story development, ensuring efficient project delivery and team collaboration.',
+				'Full-stack developer proficient in building responsive user interfaces with React, coupled with robust PostgreSQL databases and Express.js APIs. Heavily experienced in diverse data visualization tools (OpenLayers, D3.js, Plotly, WebGL, and D3FC), and currently learning Kubernetes to deploy the Dockerized MVP. Expertise in big data query & visualization. Utilizing LLMs to streamline development workflows.',
 			],
 		},
 		{

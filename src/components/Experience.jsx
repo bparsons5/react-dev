@@ -4,7 +4,8 @@ import Col from 'react-bootstrap/Col';
 import Tab from 'react-bootstrap/Tab';
 import Nav from 'react-bootstrap/Nav';
 
-import { MdWork, MdCameraRoll } from 'react-icons/md';
+import { MdWork, MdCameraRoll, MdLightbulb } from 'react-icons/md';
+import { FaBookOpen } from "react-icons/fa";
 import { BsAwardFill, BsStopFill, BsShieldFillPlus, BsMusicNoteBeamed } from 'react-icons/bs';
 import { FaCertificate } from 'react-icons/fa';
 import { TiCode } from 'react-icons/ti';
@@ -71,8 +72,7 @@ const Experience = () => {
 			title: 'Senior Software Engineer',
 			date: '2023',
 			bullets: [
-				'Quickly adapted to new team, project, and codebase through highly organized documentation and resourceful solutions to integrate feature updates for a MERN stack application (React, MongoDB, PostgreSQL, Docker). Consolidated processes in a multi-project codebase to reduce the barrier of entry to get the product up and running.',
-				'Researched & developed material for new contract lead archiving information on new SAAS technologies and testing when possible.',
+				'Quickly adapted to new team, project, and codebase via highly organized documentation and resourceful solutions to integrate feature updates for a MERN stack app (React, MongoDB, PostgreSQL, Docker). Consolidated processes in a multi-project codebase to reduce the barrier of entry and optimize boot time.',
 			],
 		},
 		{
@@ -390,7 +390,10 @@ const Experience = () => {
 												<Col xs={3} md={12} key={experience.key}>
 													<Nav.Item>
 														<Nav.Link eventKey={experience.key}>
-															<MdWork className="d-md-none" />
+															{experience.category === 'Professional' && <MdWork className="d-md-none" />}
+															{experience.category === 'Awards' && <BsAwardFill className="d-md-none" />}
+															{experience.category === 'Skills' && <MdLightbulb className="d-md-none" />}
+															{experience.category === 'Education' && <FaBookOpen className="d-md-none" />}
 															<h6 className="d-none d-md-block">{experience.category}</h6>
 														</Nav.Link>
 													</Nav.Item>
